@@ -1,0 +1,70 @@
+# Earthlink Root Project Ignores
+# This is the overview repo - client/ and server/ are separate git repos
+
+# Docs (excluded from root repo for now)
+_docs/
+
+# Scripts temp outputs
+_scripts/temp/
+_scripts/*.log
+
+# Secrets and env files (especially in scripts)
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+secrets/
+**/secrets/
+*.pem
+*.key
+*.pfx
+*.p12
+*.crt
+*.cer
+*.der
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+**/*token*
+**/*secret*
+**/*apikey*
+**/*api_key*
+**/*credentials*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment
+.env.local
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Component repos (independent git repos)
+# Prevent accidentally committing their working trees into the overview repo.
+client/
+server/
