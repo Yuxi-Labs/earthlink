@@ -1,6 +1,6 @@
 # Earthlink
 
-Earthlink is a virtual world that is being developed to train autonomous intelligent agents to explore other worlds and evaluate their fitness to do so.
+Earthlink is a virtual world where autonomous intelligent agents live, learn, and develop capabilities to explore other worlds.
 
 This repository provides an overview of the two components that make up Earthlink and links to their repositories.
 
